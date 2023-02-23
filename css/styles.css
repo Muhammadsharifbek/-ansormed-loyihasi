@@ -22,6 +22,7 @@
     text-transform: uppercase;
     margin-left: 23px;
     transition: 0.8 ease;
+    display: inline-block;
     }
 
     .main-link:hover{
@@ -123,7 +124,7 @@ border: 2px solid #000000;
 }
 
 .hero-content{
-  width: 390px;
+   width: 390px;
 }
 
 .hero-img{
@@ -143,6 +144,9 @@ font-family:"Open Sans Condensed","Arial", sans-serif
 margin-top: 0;
 font-size: 16px;
 line-height: 27px;
+display: flex;
+list-style-type: none ;
+
 }
 .container{
   padding-left: 20px;
@@ -152,27 +156,97 @@ line-height: 27px;
 }
 
 .feature-heading{
-  text-decoration: none;
-width: 600px;
-margin-top: 0;
-margin-bottom: 72px;
 font-size: 24px;
 line-height: 1.2;
-display:flex ;
-justify-content: center;
-align-items: center;
+padding-bottom: none;
+padding-left: 40px;
+margin-bottom: none;
 }
 
 .feature-icon-wrapper{
-justify-content: space-between;
-/* align-items: ; */
-width: 200px;
-height: 200px;
-text-decoration: none;
+  display: flex;
 }
 
+
 .features-heading{
-  display: flex;
+display: flex;
   justify-content: center;
   align-items: center;
+  list-style-type: none ;
+}
+
+.feature-info{
+margin-top: 70px;
+padding-right: 1000px;
+}
+
+.feature-link{
+display: flex;
+  justify-content: space-between;
+  background-color: #DE2E54;
+  color: #ffffff;
+   padding: 12px 24px;
+  font-family: "Open sans condensed", "Arial", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-left: 850px;
+  transition: 0.8 ease;
+ display: inline-block;
+}
+
+.promo{
+  border: 2px solid #0EB4C1;
+  background-color: #0EB4C1;
+  color: #ffffff;
+}
+
+.promo-item{
+  padding-top: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 16px;
+ line-height: 26px;
+  }
+
+.promo-link{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.promo-link:hover{
+  color: #fff;
+  opacity: 0.6;
+}
+
+.promo-link:active{
+  opacity: 0.6;
+}
+
+ .promo-text{
+margin-left: 450px ;
+  padding: 12px 24px;
+border:2px solid #ffffff ;
+border-radius:3px ;
+}
+
+.promo-text:hover{
+  background-color: #DE2E54;
+  opacity: 0.6;
+}
+
+ .promo-text2{
+  border:2px solid #ffffff ;
+border-radius:3px ;
+padding: 12px 24px;
+margin-right: 450px ;
+}
+
+.promo-text2:hover{
+  background-color: #DE2E54;
+  opacity: 0.6;
 }
