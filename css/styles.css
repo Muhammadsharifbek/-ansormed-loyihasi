@@ -337,3 +337,12 @@
   text-transform: uppercase;
   font-family: "Open sans condensed", "Arial", sans-serif;
 }
+
+.copyright:hover {
+  background-color: rgb(27, 23, 24);
+  opacity: 0.6;
+}
+.copyright:active {
+  background-color: rgb(12, 105, 180);
+  opacity: 0.5a;
+}
